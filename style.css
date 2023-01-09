@@ -37,35 +37,7 @@ img.container__teampic{
     height: 420px;
     display: flex;
     align-items: center;
-}
-
-.container__users-first{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.container__users-self{
-   display: flex;
-   gap: 10px;
-
-}
-
-img.container__userspic{
-    width: 60px;
-    height: 60px;
-}
-
-.container__users-name{
-    display: flex;
-    flex-direction: column;
-}
-
-.container__users-second{
-    display: flex;
-    
+    margin-bottom: 40px;
 }
 
 h3{
@@ -79,27 +51,39 @@ h3{
 
 h5{
     font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #95A1BB;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #95A1BB;
 }
 
-.container__users-self1{
+.container__teampersons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.container__first{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__users-self{
     display: flex;
     gap: 10px;
-    margin-left: 535px;
 }
-.container__users-self2{
+
+.container__username{
     display: flex;
-    gap: 10px;
-    margin-left: 114px;
+    flex-direction: column;
 }
-.container__users-self3{
-    display: flex;
-    gap: 10px;
-    margin-left: 195px;
+
+img.container__user{
+    width: 60px;
+    height: 60px;
 }
+
