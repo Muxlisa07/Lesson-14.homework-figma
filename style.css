@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #363940;
+    margin: 20px;
+}
+
+p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #95A1BB;
+}
+
+.container__team-pic{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+img.container__teampic{
+    width: 1200px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+}
+
+.container__users-first{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container__users-self{
+   display: flex;
+   gap: 10px;
+
+}
+
+img.container__userspic{
+    width: 60px;
+    height: 60px;
+}
+
+.container__users-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__users-second{
+    display: flex;
+    
+}
+
+h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+
+h5{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #95A1BB;
+}
+
+.container__users-self1{
+    display: flex;
+    gap: 10px;
+    margin-left: 535px;
+}
+.container__users-self2{
+    display: flex;
+    gap: 10px;
+    margin-left: 114px;
+}
+.container__users-self3{
+    display: flex;
+    gap: 10px;
+    margin-left: 195px;
+}
